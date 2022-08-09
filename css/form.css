@@ -4,13 +4,13 @@
     padding-bottom: 15px;
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:900px) {
     .wrapper {
         width: 350px;
     }
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:900px) {
     .headline-article {
         display: block;
         margin-bottom: 5px;
@@ -18,56 +18,67 @@
 }
 
 .rubric {
-    padding-right: 90px;
+    padding-right: 55px;
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:900px) {
     .rubric {
         display: block;
     }
 }
 
     .activities {
-        border: none;
-        outline: none;
-        padding-right: 35px;
+        border-radius: 5px;
+        border: 1px solid;
+        padding-right: 45px;
     }
 
-    @media screen and (max-width:630px) {
+    @media screen and (max-width:900px) {
         .activities {
-            padding-right: 190px;
+            padding-right: 143px;
         }
     }
     
-    @media screen and (max-width:630px) {
-        .activities {
-            padding-right: 190px;
-        }
-    }  
 
     .publication {
         padding-right: 62px;
     }
 
-    @media screen and (max-width:630px) {
+    @media screen and (max-width:900px) {
         .publication {
             display: block;
         }
     } 
 
-    @media screen and (max-width:630px) {
+    @media screen and (max-width:900px) {
         .radio {
             display: block;
         }
     } 
 
 .article {
-    border: none;
-    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 450px;
 }
+
+@media screen and (max-width:900px) {
+    .article {
+        width: 280px;
+    }
+} 
 
 .text {
     resize: none;
-    border: none;
-    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 570px;
+    height: 40px;
 }
+
+
+@media screen and (max-width:900px) {
+    .text {
+        width: 280px;
+    }
+} 
